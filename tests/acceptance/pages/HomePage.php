@@ -32,9 +32,9 @@ class HomePage extends \Helper\Acceptance
      * checkIn = 1
      * checkOut = 2
      */
-    static function pickDate($availableDay, $calendar)
+    static function pickDate($availableDay = 0, $calendar = 0)
     {
-        return '(//td[@class="day "]['.$availableDay.'])['.$calendar.']';
+        return "//td[@class='day  active']/following-sibling::td";
     }
 
     static $accountButton = '(//*[@id="li_myaccount"]/a)[2]';
