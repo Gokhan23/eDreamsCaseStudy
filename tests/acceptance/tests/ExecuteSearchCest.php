@@ -24,6 +24,7 @@ class ExecuteSearchCest
         $I->click(Pages\HomePage::$searchAutoCompleteFirstSuggestion);
 
         $I->click(Pages\HomePage::$checkIn);
+        //one for check in, one for checkout
         $I->click(Pages\HomePage::pickDate());
         $I->click(Pages\HomePage::pickDate());
 
