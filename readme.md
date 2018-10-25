@@ -3,6 +3,7 @@
 ## Getting Started
 Welcome to my case study! I had fun while doing it, I hope you will also have same feeling. On this project I used codeception framework for both api and acceptance tests.
 
+*Warning! Screenshot's qualities can hurt your eyes.*
 
 
 ### Prerequisites
@@ -20,6 +21,9 @@ Then open another terminal, go to command line and give the paths for chrome dri
 java -Dwebdriver.chrome.driver=PATH/TO/CHROME_DRIVER -jar PATH/TO/SELENIUM.jar
 ```
 
+Expected output:
+![alt text](https://i.imgur.com/1hDqOIL.jpg)
+
 ## Task 1
 
 To run api tests and see the results, please run this command in the project folder
@@ -29,6 +33,10 @@ vendor\bin\codecept run api --steps
 ```
 
 To get more details add `--debug` parameter
+
+Expected output will be like this:
+![alt text](https://i.imgur.com/cYPxtdg.jpg)
+
 
 
 ## Task 2
@@ -48,6 +56,11 @@ Report file will be generated under the `_output` folder.
 If you want to run single test just add one more param  `--group groupname` 
 
 You will find group names in beginning of the test cases.
+
+
+
+Expected output will be like this:
+![alt text](https://i.imgur.com/Kyes1e7.jpg)
 
 
 ## Task 3
