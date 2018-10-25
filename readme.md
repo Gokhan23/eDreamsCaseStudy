@@ -46,7 +46,7 @@ Running automation tests
 Please run this command in the project folder
 
 ```
-vendor\bin\codecept run acceptance --steps --html report.html
+vendor\bin\codecept run acceptance --html report.html
 ```
 
 ***We expect 2 test pass and 1 test fail ( due to 500 exception )***
